@@ -10,6 +10,10 @@ public class CaffeinatedBeverage
         this.price = price;
     }
 
+    public class Tea extends CaffeinatedBeverage {
+        
+    };
+
     public String getName() {
         return this.name;
     }
